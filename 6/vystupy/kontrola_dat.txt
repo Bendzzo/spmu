@@ -1,0 +1,35 @@
+KONTROLA EEG DÁT
+Rozmery matice: (500, 4097) (merania × vzorky)
+Dátový typ matice: float64
+Všetky hodnoty sú celočíselné: True
+Počet chýbajúcich/nekonečných hodnôt: 0
+Počet vzoriek každého merania: 4097
+Vzorkovacia frekvencia: 173.61 Hz
+Dĺžka záznamu N/fs: 23.599 s
+Čas poslednej vzorky (N-1)/fs: 23.593 s
+Poradie skupín: Z, O, N, F, S
+Indexy riadkov sú číslované od nuly.
+Amplitúdy sú pôvodné číselné hodnoty súborov, bez normalizácie a filtrácie.
+
+PREHĽAD SKUPÍN
+Skupina | počet | riadky | minimum | maximum | medián rozpätia max-min
+Z | 100 | 0-99 | -288 | 294 | 307.5
+  zdraví, otvorené oči
+O | 100 | 100-199 | -424 | 360 | 412.0
+  zdraví, zatvorené oči
+N | 100 | 200-299 | -412 | 623 | 365.5
+  mimo záchvatu, opačná hemisféra
+F | 100 | 300-399 | -1147 | 2047 | 370.0
+  mimo záchvatu, epileptogénna oblasť
+S | 100 | 400-499 | -1885 | 2047 | 1729.0
+  počas epileptického záchvatu
+
+MERANIA V GRAFOCH (prvý súbor každej skupiny)
+Súbor | minimum | maximum | smerodajná odchýlka
+Z001.txt | -190 | 185 | 42.59
+O001.txt | -164 | 225 | 50.53
+N001.TXT | -226 | 132 | 49.33
+F001.txt | -64 | 123 | 28.63
+S001.txt | -1765 | 1027 | 478.48
+
+NPZ archív bol opäť načítaný; všetky polia sa presne zhodujú.
