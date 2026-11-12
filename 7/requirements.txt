@@ -1,0 +1,4 @@
+ultralytics==8.4.211
+matplotlib>=3.3
+Pillow>=7.1.2
+requests>=2.23
